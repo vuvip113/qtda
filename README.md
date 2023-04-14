@@ -11,5 +11,3 @@
 
 - 📫 How to contact me **vucute775@gmail.com**
 
-- ⚡ Fun fact **I think I am funny**
-
