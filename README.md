@@ -1,7 +1,7 @@
 <h1 align="center">Hi 💓, We're Vfashx</h1>
 <h3 align="center">Làm 1 web site đơn giản có đầy đủ chức năng</h3>
 
-(img align="right" alt="Coding" width="400" src="https://images.viblo.asia/ed71aca0-f6a4-42f3-8765-2747dd6fb4e2.gif"
+<img align="right" alt="Coding" width="400" src="https://images.viblo.asia/ed71aca0-f6a4-42f3-8765-2747dd6fb4e2.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vuvip113&label=Profile%20views&color=0e75b6&style=flat" alt="vuvip113" /> </p>
 
