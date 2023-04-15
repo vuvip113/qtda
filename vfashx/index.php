@@ -113,7 +113,7 @@ foreach ($result as $row) {
 
 
 <?php if ($home_service_on_off == 1) : ?>
-    <div class="service reveal bg-gray">
+    <div class="service bg-gray">
         <div class="container">
             <div class="row">
                 <?php
@@ -140,7 +140,7 @@ foreach ($result as $row) {
 <?php endif; ?>
 
 
-<div class="py-5 reveal">
+<div class="py-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12 ">
@@ -158,7 +158,7 @@ foreach ($result as $row) {
                         </div>
                     </div>
                     <?php if ($home_featured_product_on_off == 1) : ?>
-                        <div class="product pt_70 pb_70">
+                        <div class="product reveal pt_70 pb_70">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">

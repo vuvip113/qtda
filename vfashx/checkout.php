@@ -155,6 +155,7 @@ if (!isset($_SESSION['cart_p_id'])) {
                                 <th class="total-amount">
                                     <?php
                                     $final_total = $table_total_price + $shipping_cost;
+                                    $final_total1 = $final_total / 24000;
                                     ?>
                                     <?php echo curformat($final_total); ?><?php echo LANG_VALUE_164; ?>
                                 </th>
@@ -329,7 +330,7 @@ if (!isset($_SESSION['cart_p_id'])) {
                                         <input type="hidden" name="currency_code" value="USD" />
                                         <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynow_LG.gif:NonHostedGuest" />
 
-                                        <input type="hidden" name="final_total" value="<?php echo $final_total; ?>">
+                                        <input type="hidden" name="final_total" value="<?php echo $final_total1; ?>">
                                         <div class="col-md-12 form-group">
                                             <input type="submit" class="btn btn-primary" value="<?php echo LANG_VALUE_46; ?>" name="form1">
                                         </div>
