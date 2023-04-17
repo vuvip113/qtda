@@ -154,7 +154,17 @@ if (!isset($_SESSION['customer'])) {
                                         </td>
                                         <td><?php echo $row['payment_date']; ?></td>
                                         <td><?php echo $row['txnid']; ?></td>
-                                        <td><?php echo curformat($row['paid_amount']); ?><?php echo LANG_VALUE_164; ?></td>
+
+                                        <td>
+                                            <?php if ($row['payment_method'] == 'PayPal') : ?>
+                                                $<?php echo curformat($row['paid_amount']); ?>
+                                            <?php elseif ($row['payment_method'] == 'Stripe') : ?>
+                                                <?php echo curformat($row['paid_amount']); ?><?php echo LANG_VALUE_164; ?>
+                                            <?php elseif ($row['payment_method'] == 'Bank Deposit') : ?>
+                                                <?php echo curformat($row['paid_amount']); ?><?php echo LANG_VALUE_164; ?>
+                                            <?php endif; ?>
+                                        </td>
+
                                         <td><?php echo $row['payment_status']; ?></td>
                                         <td><?php echo $row['payment_method']; ?></td>
                                         <td><?php echo $row['payment_id']; ?></td>

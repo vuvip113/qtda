@@ -10,6 +10,7 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: 14px;
   text-decoration: none;
+  min-height: 100vh;
 }
 
 h1,
@@ -2128,7 +2129,7 @@ div.pagination span.disabled {
 }
 
 .home-newsletter {
-  padding: 20px 0;
+  padding: 50px 0;
   /* background: #0d1452; */
   background: #232f3e;
 }
@@ -2169,4 +2170,17 @@ div.pagination span.disabled {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+.sticky-footer {
+  position: sticky;
+  top: 100%;
+}
+
+.border {
+  padding: 50px 0px;
+  border: 2px solid #121921;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }

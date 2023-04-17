@@ -121,8 +121,12 @@ if (!isset($_REQUEST['id']) || !isset($_REQUEST['type'])) {
 ?>
 
 <div class="page-banner" style="background-image: url(assets/uploads/<?php echo $banner_product_category; ?>)">
-    <div class="inner">
-        <h1><?php echo LANG_VALUE_50; ?> <?php echo $title; ?></h1>
+    <div style="display: flex;align-items: center; justify-content: center;">
+        <div style="flex-direction: row; font-size: 33px;display: flex;color: white;">
+            <div><?php echo LANG_VALUE_50; ?>
+            </div>
+            <div class="animated fadeInDown" style="margin-left: 10px;"><?php echo $title; ?></div>
+        </div>
     </div>
 </div>
 

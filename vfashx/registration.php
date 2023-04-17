@@ -191,7 +191,7 @@ if (isset($_POST['form1'])) {
 </div>
 
 <div class="page">
-    <div class="container">
+    <div class="container border">
         <div class="row">
             <div class="col-md-12">
                 <div class="user-content">

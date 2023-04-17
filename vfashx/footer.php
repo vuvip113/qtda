@@ -17,7 +17,7 @@ foreach ($result as $row) {
 
 
 <?php if ($newsletter_on_off == 1) : ?>
-	<section class="home-newsletter">
+	<section class="home-newsletter sticky-footer">
 		<div class="container">
 			<div class="row">
 				<footer class="col-md-6 footer-bs">
@@ -35,8 +35,9 @@ foreach ($result as $row) {
 								<ul class="list">
 									<li><a style="text-decoration: none;" href="#">About Us</a></li>
 									<li><a style="text-decoration: none;" href="#">Contacts</a></li>
-									<li><a style="text-decoration: none;" href="#">Terms & Condition</a></li>
 									<li><a style="text-decoration: none;" href="#">Privacy Policy</a></li>
+									<li><a style="text-decoration: none;" href="#"></a></li>
+									<li><a style="text-decoration: none;" href="#"></a></li>
 								</ul>
 							</div>
 						</div>
@@ -85,11 +86,11 @@ foreach ($result as $row) {
 										$verification_url = BASE_URL . 'verify.php?email=' . $to . '&key=' . $key;
 
 										$message = '
-Thanks for your interest to subscribe our newsletter!<br><br>
-Please click this link to confirm your subscription:
-					' . $verification_url . '<br><br>
-This link will be active only for 24 hours.
-					';
+												Thanks for your interest to subscribe our newsletter!<br><br>
+												Please click this link to confirm your subscription:
+			 									' . $verification_url . '<br><br>
+												This link will be active only for 24 hours.
+												';
 
 										$headers = 'From: ' . $contact_email . "\r\n" .
 											'Reply-To: ' . $contact_email . "\r\n" .
@@ -130,9 +131,7 @@ This link will be active only for 24 hours.
 <?php endif; ?>
 
 
-
-
-<div class="footer-bottom">
+<div class="footer-bottom sticky-footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 copyright">
