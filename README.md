@@ -48,10 +48,10 @@ Biết sử dụng ngôn ngử để tạo web css, php, js,...
 ![App Screenshot](img/5.png)
 
 - Vào database `vfashx` Chọn Nhập -> Chọn Tệp -> sử dụng tệp `vfashx.sql` mà đã tải về -> Open -> Nhập
-![App Screenshot](img/7.png)
+![App Screenshot](img/7.PNG)
 
 -> Thành công sẽ hiện ra bảng nhập thành công nếu lỗi thì kiểm tra lại các bước trên 
-![App Screenshot](img/8.png)
+![App Screenshot](img/8.PNG)
 
 ▶️ Mở tab web mới (Cốc Cốc, Chorme, ...)
 - Sử dụng dụng câu lệnh 
